@@ -125,3 +125,21 @@ git remote add <имя для репозитория> <url-адрес репоз
 - git fetch origin
 - git reset --hard origin/master
 
+---
+
+## 9. Твики и удобные команды
+
+встроенный в git графический интерфейс
+- gitk
+
+использовать цветной вывод в терминале
+
+- git config color.ui true
+
+выводить в логе коммит на одной строке
+
+- git config format.pretty oneline
+  
+интерактивный способ добавления в индекс
+
+- git add -i
